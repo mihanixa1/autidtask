@@ -4,5 +4,5 @@
 
 
 # how to test
-`yarn hardhat node&`
+`yarn hardhat node &`
 `yarn compile && yarn test`

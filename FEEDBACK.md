@@ -1,9 +1,11 @@
 typo `Ownabel` (in the docs)
 
+consider adding `**/**/.DS_Store` into .gitignore
+
 some testsuits fail
   (138 passing (21s)
   1 pending
-  1 failin
+  1 failing)
 
 consider using linters (like solhint or so)
   
@@ -29,3 +31,4 @@ some contracts are upgradeable; consider using storage layout checkers for upgra
   
  consider configuring ci (github actions or so) 
   
+consider replacing npx with yarn in original README.md 
