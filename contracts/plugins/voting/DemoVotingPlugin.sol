@@ -39,10 +39,6 @@ contract DemoVotingPlugin is SimplePlugin, VotingModule {
     mapping(address => uint256) internal _lastProposalCreatedAt;
     Proposal[] internal _proposals;
 
-    /**
-     * @dev Initializes a new `QuestOnboardingPlugin` instance.
-     * @param dao The DAO address.
-     */
     constructor(address dao) SimplePlugin(dao, 0) {
         _setActive(true);
     }
@@ -66,7 +62,7 @@ contract DemoVotingPlugin is SimplePlugin, VotingModule {
             }
         }
         uint256[] memory result = new uint256[](ptr);
-        for (uint256 i; i != ids.length; ++i) {
+        for (uint256 i; i != ptr; ++i) {
             result[i] = ids[i];
         }
         return result;
