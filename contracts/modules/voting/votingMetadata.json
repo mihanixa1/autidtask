@@ -1,0 +1,10 @@
+{
+    "name": "Interview Task",
+    "description": "Interview Task Voting Module",
+    "properties": {
+      "type": "Default",
+      "title": "Voting Strategies",
+      "shortDescription": "<...>",
+      "longDescription": "<......>"
+    }
+}
