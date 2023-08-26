@@ -32,3 +32,5 @@ some contracts are upgradeable; consider using storage layout checkers for upgra
  consider configuring ci (github actions or so) 
   
 consider replacing npx with yarn in original README.md 
+
+consider using UNLICENSED instead of MIT (spdx-license-identifier)
